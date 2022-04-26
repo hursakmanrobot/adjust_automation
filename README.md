@@ -15,5 +15,5 @@ use the tool and develop automation script using the Cucumber (v 3.0.0) BDD fram
 
 ### Framework set up
 
-Fork / Clone repository from [here]( https://github.com/amiya-pattnaik/selenium-cucumber-java) or download zip and set
+Fork / Clone repository from [here](https://github.com/hursakmanrobot/adjust_automation/) or download zip and set
 it up in your local workspace.
