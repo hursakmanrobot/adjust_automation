@@ -1,0 +1,6 @@
+automation\challange\steps\HomePageStep.class
+automation\challange\steps\DocumentPageStep.class
+automation\challange\TestRunner.class
+automation\challange\steps\APIPageStep.class
+automation\challange\steps\ListPageStep.class
+automation\challange\steps\BaseStep.class

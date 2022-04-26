@@ -1,0 +1,512 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Create Pet And Check",
+        "description": "",
+        "id": "check-api-responses;create-pet-and-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2588403000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Create New Pet",
+            "match": {
+              "location": "APIPageStep.createNewPet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1316983600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Check Pet Created",
+            "match": {
+              "location": "APIPageStep.checkPetCreated()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@api"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Update Pet And Check",
+        "description": "",
+        "id": "check-api-responses;update-pet-and-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 749671300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Create New Pet",
+            "match": {
+              "location": "APIPageStep.createNewPet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 733278800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Update Pet And Check",
+            "match": {
+              "location": "APIPageStep.updatePetAndCheck()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@api"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Create Order",
+        "description": "",
+        "id": "check-api-responses;create-order",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 741392700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Create New Pet",
+            "match": {
+              "location": "APIPageStep.createNewPet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 779080000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Order Created Pet",
+            "match": {
+              "location": "APIPageStep.orderCreatedPet()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@api"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Create New User And Check",
+        "description": "",
+        "id": "check-api-responses;create-new-user-and-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 750291700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Create New User And Check",
+            "match": {
+              "location": "APIPageStep.createNewUserAndCheck()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 18,
+            "name": "@api"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Login With Existing User",
+        "description": "",
+        "id": "check-api-responses;login-with-existing-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 759283500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Create New User",
+            "match": {
+              "location": "APIPageStep.createNewUser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 752508200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Login With Existing User And Check",
+            "match": {
+              "location": "APIPageStep.loginWithExistingUserAndCheck()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 22,
+            "name": "@api"
+          }
+        ]
+      }
+    ],
+    "name": "Check API Responses",
+    "description": "",
+    "id": "check-api-responses",
+    "keyword": "Feature",
+    "uri": "API.feature"
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Navigate to Wikipedia Search Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 21667455100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to HomePage",
+            "match": {
+              "location": "HomePageStep.navigateTooHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2379497400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseStep.setup()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Wikipedia Logo Check",
+        "description": "",
+        "id": "search-item;wikipedia-logo-check",
+        "after": [
+          {
+            "result": {
+              "duration": 103433500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseStep.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 94839400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Check Wikipedia Logo",
+            "match": {
+              "location": "HomePageStep.checkWikipediaLogo()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@logo_check"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Navigate to Wikipedia Search Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 21801242100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to HomePage",
+            "match": {
+              "location": "HomePageStep.navigateTooHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1963064300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseStep.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Wikipedia Search Text And Check",
+        "description": "",
+        "id": "search-item;wikipedia-search-text-and-check",
+        "after": [
+          {
+            "result": {
+              "duration": 89117700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseStep.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1281371200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I want to search \"Opeth\" text on Wikipedia search page and check",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Opeth",
+                  "offset": 18
+                }
+              ],
+              "location": "HomePageStep.iWantToSearchTextOnWikipediaSearchPage(String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@check_search_result"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Navigate to Wikipedia Search Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 21946494000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to HomePage",
+            "match": {
+              "location": "HomePageStep.navigateTooHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1940227500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseStep.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Search Any Text Which Is Does Not Exists And Check",
+        "description": "",
+        "id": "search-item;search-any-text-which-is-does-not-exists-and-check",
+        "after": [
+          {
+            "result": {
+              "duration": 135977300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseStep.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1169173900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I want to search \"Asdasdwsxwsx\" text on Wikipedia search page and check it is does not exists",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Asdasdwsxwsx",
+                  "offset": 18
+                }
+              ],
+              "location": "HomePageStep.iWantToSearchTextOnWikipediaSearchPageAndCheckItIsDoesNotExists(String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@check_search_result"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Navigate to Wikipedia Search Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 21873708100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to HomePage",
+            "match": {
+              "location": "HomePageStep.navigateTooHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1979638600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseStep.setup()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Complex Regular Expression Message Check",
+        "description": "",
+        "id": "search-item;complex-regular-expression-message-check",
+        "after": [
+          {
+            "result": {
+              "duration": 70176800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseStep.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2161999400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I want to search Complex Regular Expression text on Wikipedia search page and check",
+            "match": {
+              "location": "HomePageStep.iWantToSearchComplexRegularExpressionTextOnWikipediaSearchPageAndCheck()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@check_search_result"
+          }
+        ]
+      }
+    ],
+    "name": "Search Item",
+    "description": "",
+    "id": "search-item",
+    "keyword": "Feature",
+    "uri": "UI.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@browser"
+      }
+    ]
+  }
+]
